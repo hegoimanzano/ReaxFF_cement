@@ -1,9 +1,8 @@
 # ReaxFF_cement
-ReaxFF potentials for cement based material
 
 ReaxFF is a reactive force field created originally for hydrocarbons by Adri C.T van Duin and his coworkers in the Materials and Process Simulation Center group from Caltech University, and extended afterwards to inorganic systems. ReaxFF uses a bond-order formalism for bonding and angular interactions, together with a polarisable charge equilibration method (Qeq) to describe both reactive and non-reactive interactions between atoms. 
 
-The provided files are the parameterization of potentials for Si-Ca-O-H systems by H.Manzano and coworkers, already presented in a suitable form to use with two open-source well mantained codes that have a ReaxFF implementation
+ReaxFF potentials for cement based material were parameterized by H.Manzano and coworkers at MIT in 2012. The Ca/Si/O/H has been tested in crystalline calcium silicates, calcium silicate hydrates, crystal/water interfaces, and amorphous C-S-H. The provided files are the parameterization of potentials for Si-Ca-O-H already presented in a suitable form to use with two open-source well mantained codes that have a ReaxFF implementation
 
 a) ffiel-CaSiOH-lammps.reax: force field formatted for the LAMMPS simulation code.
    http://lammps.sandia.gov/
@@ -11,7 +10,7 @@ a) ffiel-CaSiOH-lammps.reax: force field formatted for the LAMMPS simulation cod
 b) ffiel-CaSiOH-gulp.reax: force field formatted for the GULP simulation code.
    http://projects.ivec.org/gulp/downloads.html
    
-# Notes: 
+## Notes: 
 
 The file includes carbon (C) just for historical reasons, the Ca-C interactionsare not developed yet. 
      
@@ -19,7 +18,7 @@ The Ca-O-H interactions have been tested independently and together with the Si-
  
 The, Si-Ca potential were not developed explicitly so potentials reproduces oxides and aqueos systems, but there is no guarantee that it will work in alloys
 
-# Citations:
+## Citations:
 
 - Please cite the reaxFF method as:
 
